@@ -1,0 +1,40 @@
+record_id,record_type,record_key,expected_outcome,expected_method,expected_batch,expected_payment_ids,expected_exception_type,expected_delta_paise,trap_name,notes
+bank_0,bank_credit,UPI907343,matched,amount_window,setl_001,pay_001,,0,clean_single,"One payment, UTR present in narration. Should match exactly."
+bank_1,bank_credit,NEFTUTRK9Q1UL0B,matched,utr_exact,setl_002,pay_002,,0,clean_single,"One payment, UTR present in narration. Should match exactly."
+bank_2,bank_credit,RTGSRTGSWCXVS27E,matched,utr_exact,setl_003,pay_003,,0,clean_single,"One payment, UTR present in narration. Should match exactly."
+bank_3,bank_credit,IMPS170421,matched,amount_window,setl_004,pay_004,,0,clean_single,"One payment, UTR present in narration. Should match exactly."
+bank_4,bank_credit,UPI676773,matched,amount_window,setl_005,pay_005,,0,clean_single,"One payment, UTR present in narration. Should match exactly."
+bank_5,bank_credit,NEFTUTRNLQSZZ1N,matched,utr_exact,setl_006,pay_006,,0,clean_single,"One payment, UTR present in narration. Should match exactly."
+bank_6,bank_credit,IMPS595481,matched,amount_window,setl_007,pay_007,,0,clean_single,"One payment, UTR present in narration. Should match exactly."
+bank_7,bank_credit,UPI249471,matched,amount_window,setl_008,pay_008,,0,clean_single,"One payment, UTR present in narration. Should match exactly."
+bank_8,bank_credit,RTGSRTGS3PH5TFZ7,matched,utr_exact,setl_009,pay_009,,0,clean_single,"One payment, UTR present in narration. Should match exactly."
+bank_9,bank_credit,NEFTUTRWBLSAPEF,matched,utr_exact,setl_010,pay_010,,0,clean_single,"One payment, UTR present in narration. Should match exactly."
+bank_10,bank_credit,IMPS183073,matched,amount_window,setl_011,pay_011,,0,clean_single,"One payment, UTR present in narration. Should match exactly."
+bank_11,bank_credit,UPI252663,matched,amount_window,setl_012,pay_012,,0,clean_single,"One payment, UTR present in narration. Should match exactly."
+bank_12,bank_credit,NEFTUTR5AYTCCWC,matched,utr_exact,setl_013,pay_013,,0,clean_single,"One payment, UTR present in narration. Should match exactly."
+bank_13,bank_credit,IMPS205473,matched,amount_window,setl_014,pay_014,,0,clean_single,"One payment, UTR present in narration. Should match exactly."
+bank_14,bank_credit,NEFTUTRWM2YJZPE,matched,utr_exact,setl_015,pay_015,,0,clean_single,"One payment, UTR present in narration. Should match exactly."
+bank_15,bank_credit,NEFTUTRXYQ1CYDQ,matched,batch_by_utr,setl_016,pay_016|pay_017|pay_018|pay_019|pay_020,,0,clean_batch,"Several payments bundled, UTR present. Batch net must be summed."
+bank_16,bank_credit,NEFTUTRAV4RJMDX,matched,batch_by_utr,setl_017,pay_021|pay_022|pay_023,,0,clean_batch,"Several payments bundled, UTR present. Batch net must be summed."
+bank_17,bank_credit,NEFTUTRW32JD4Q5,matched,batch_by_utr,setl_018,pay_024|pay_025,,0,clean_batch,"Several payments bundled, UTR present. Batch net must be summed."
+bank_18,bank_credit,NEFTUTRX4SXF2YF,matched,batch_by_utr,setl_019,pay_026|pay_027|pay_028,,0,clean_batch,"Several payments bundled, UTR present. Batch net must be summed."
+bank_19,bank_credit,IMPS515805,matched,amount_window,setl_020,pay_029|pay_030,,0,batch_no_utr,"Bundled payments, narration has no UTR. Must fall back to amount+date window."
+bank_20,bank_credit,IMPS431151,matched,amount_window,setl_021,pay_031|pay_032|pay_033,,0,batch_no_utr,"Bundled payments, narration has no UTR. Must fall back to amount+date window."
+bank_21,bank_credit,NEFTUTR1Z7QS613,matched,batch_by_utr,setl_022,pay_034|pay_035|pay_036,,0,clean_batch,"Several payments bundled, UTR present. Batch net must be summed."
+bank_22,bank_credit,NEFTUTR1Z7QS613,exception,none,setl_022,pay_034|pay_035|pay_036,duplicate_bank_credit,0,duplicate_credit,"Same UTR and amount as the preceding row. The batch is already consumed, so this must be flagged, not matched again."
+bank_23,bank_credit,NEFTUTR3TFC09CL,matched,utr_exact,setl_026,pay_040,,-50,short_pay_within_tolerance,"50 paise short. Inside the ₹1.00 declared tolerance, so it may match — but the delta must be recorded, not swallowed."
+bank_24,bank_credit,NEFTUTRX8KFUES5,exception,none,setl_027,pay_041,amount_variance,-250000,variance_breach,"₹2,500 short against a resolvable UTR. Reference matches but money does not — the most dangerous case to auto-match."
+bank_25,bank_credit,NEFTUTRH7S3110U,exception,none,setl_028,pay_042|pay_043,amount_variance,127440,fees_not_deducted,Credit equals batch GROSS. reconcile() should attach the 'fees not deducted' diagnostic rather than report a blind delta.
+bank_26,bank_credit,NEFTUTRXVGHRSSP,matched,utr_exact,setl_029,pay_044,,0,zero_value_settlement,"Zero on both sides. Matching on amount alone would pair this with any other zero row, so the reference must carry the match."
+bank_27,bank_credit,NEFTUTRH4VJTUAT,matched,batch_by_utr,setl_030,pay_045|pay_046,,0,refund_batch,Negative batch: fee and GST reverse with the principal.
+bank_28,bank_credit,IMPS433632,exception,none,setl_031,pay_047|pay_048,ambiguous_multiple_candidates,0,ambiguous_amount,Two candidate batches reconcile equally well and neither narration carries a UTR. Guessing would be a coin flip.
+bank_29,bank_credit,IMPS608367,exception,none,setl_032,pay_049|pay_050,ambiguous_multiple_candidates,0,ambiguous_amount,Two candidate batches reconcile equally well and neither narration carries a UTR. Guessing would be a coin flip.
+bank_30,bank_credit,,exception,none,setl_033,pay_051|pay_052,unresolvable_reference,0,unparseable_narration_unresolvable,"No readable reference AND the net matches several candidate batches in the window. Nothing can decide this correctly, so refusing is the right answer."
+bank_31,bank_credit,NEFTZZ9911QQ,exception,none,,,orphan_bank_credit,0,orphan_bank_credit,Credit from a source that is not Razorpay at all.
+bank_32,bank_credit,,matched,amount_window,setl_034,pay_053,,0,unparseable_narration_recovered,"Regex extraction fails, amount fallback succeeds. The audit log must show BOTH the extractor miss and the fallback that rescued it — the recovery is the interesting part, not the match."
+setl_023,settlement_batch,setl_023,exception,none,setl_023,pay_037,missing_settlement,0,missing_settlement,Batch exists in Razorpay but never reached the bank.
+setl_024,settlement_batch,setl_024,exception,none,setl_024,pay_038,missing_settlement,0,missing_settlement,Batch exists in Razorpay but never reached the bank.
+setl_025,settlement_batch,setl_025,exception,none,setl_025,pay_039,missing_settlement,0,missing_settlement,Batch exists in Razorpay but never reached the bank.
+ord_054,order,ord_054,exception,none,,,order_never_settled,0,order_never_settled,"Order in status 'failed' with no settlement. Expected: no bank credit, and not counted as a reconciliation failure."
+ord_055,order,ord_055,exception,none,,,order_never_settled,0,order_never_settled,"Order in status 'failed' with no settlement. Expected: no bank credit, and not counted as a reconciliation failure."
+ord_056,order,ord_056,exception,none,,,order_never_settled,0,order_never_settled,"Order in status 'pending' with no settlement. Expected: no bank credit, and not counted as a reconciliation failure."
