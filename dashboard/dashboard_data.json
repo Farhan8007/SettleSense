@@ -1,0 +1,2082 @@
+{
+  "generated_at": "2026-08-25T09:11:39.864742+00:00",
+  "summary": {
+    "total_bank_credits": 33,
+    "total_matched": 26,
+    "total_exceptions": 13,
+    "match_rate_pct": 78.8,
+    "deterministic_matches": 26,
+    "ai_assisted_matches": 0,
+    "accuracy_pct": 100.0,
+    "false_positives": 0,
+    "false_negatives": 0
+  },
+  "records": [
+    {
+      "record_key": "bank_0",
+      "trap_name": "clean_single",
+      "amount_paise": 2397962,
+      "status": "matched",
+      "match_method": "batch_sum_exact",
+      "matched_batch_id": "setl_001",
+      "exception_type": null,
+      "severity": null,
+      "expected_outcome": "matched",
+      "correct": true
+    },
+    {
+      "record_key": "bank_1",
+      "trap_name": "clean_single",
+      "amount_paise": 3053731,
+      "status": "matched",
+      "match_method": "utr_exact",
+      "matched_batch_id": "setl_002",
+      "exception_type": null,
+      "severity": null,
+      "expected_outcome": "matched",
+      "correct": true
+    },
+    {
+      "record_key": "bank_2",
+      "trap_name": "clean_single",
+      "amount_paise": 12234500,
+      "status": "matched",
+      "match_method": "batch_sum_exact",
+      "matched_batch_id": "setl_003",
+      "exception_type": null,
+      "severity": null,
+      "expected_outcome": "matched",
+      "correct": true
+    },
+    {
+      "record_key": "bank_3",
+      "trap_name": "clean_single",
+      "amount_paise": 1849856,
+      "status": "matched",
+      "match_method": "batch_sum_exact",
+      "matched_batch_id": "setl_004",
+      "exception_type": null,
+      "severity": null,
+      "expected_outcome": "matched",
+      "correct": true
+    },
+    {
+      "record_key": "bank_4",
+      "trap_name": "clean_single",
+      "amount_paise": 4120580,
+      "status": "matched",
+      "match_method": "batch_sum_exact",
+      "matched_batch_id": "setl_005",
+      "exception_type": null,
+      "severity": null,
+      "expected_outcome": "matched",
+      "correct": true
+    },
+    {
+      "record_key": "bank_5",
+      "trap_name": "clean_single",
+      "amount_paise": 3807376,
+      "status": "matched",
+      "match_method": "utr_exact",
+      "matched_batch_id": "setl_006",
+      "exception_type": null,
+      "severity": null,
+      "expected_outcome": "matched",
+      "correct": true
+    },
+    {
+      "record_key": "bank_6",
+      "trap_name": "clean_single",
+      "amount_paise": 959185,
+      "status": "matched",
+      "match_method": "batch_sum_exact",
+      "matched_batch_id": "setl_007",
+      "exception_type": null,
+      "severity": null,
+      "expected_outcome": "matched",
+      "correct": true
+    },
+    {
+      "record_key": "bank_7",
+      "trap_name": "clean_single",
+      "amount_paise": 2672015,
+      "status": "matched",
+      "match_method": "batch_sum_exact",
+      "matched_batch_id": "setl_008",
+      "exception_type": null,
+      "severity": null,
+      "expected_outcome": "matched",
+      "correct": true
+    },
+    {
+      "record_key": "bank_8",
+      "trap_name": "clean_single",
+      "amount_paise": 9298220,
+      "status": "matched",
+      "match_method": "batch_sum_exact",
+      "matched_batch_id": "setl_009",
+      "exception_type": null,
+      "severity": null,
+      "expected_outcome": "matched",
+      "correct": true
+    },
+    {
+      "record_key": "bank_9",
+      "trap_name": "clean_single",
+      "amount_paise": 2163060,
+      "status": "matched",
+      "match_method": "utr_exact",
+      "matched_batch_id": "setl_010",
+      "exception_type": null,
+      "severity": null,
+      "expected_outcome": "matched",
+      "correct": true
+    },
+    {
+      "record_key": "bank_10",
+      "trap_name": "clean_single",
+      "amount_paise": 4786136,
+      "status": "matched",
+      "match_method": "batch_sum_exact",
+      "matched_batch_id": "setl_011",
+      "exception_type": null,
+      "severity": null,
+      "expected_outcome": "matched",
+      "correct": true
+    },
+    {
+      "record_key": "bank_11",
+      "trap_name": "clean_single",
+      "amount_paise": 1614954,
+      "status": "matched",
+      "match_method": "batch_sum_exact",
+      "matched_batch_id": "setl_012",
+      "exception_type": null,
+      "severity": null,
+      "expected_outcome": "matched",
+      "correct": true
+    },
+    {
+      "record_key": "bank_12",
+      "trap_name": "clean_single",
+      "amount_paise": 5226578,
+      "status": "matched",
+      "match_method": "utr_exact",
+      "matched_batch_id": "setl_013",
+      "exception_type": null,
+      "severity": null,
+      "expected_outcome": "matched",
+      "correct": true
+    },
+    {
+      "record_key": "bank_13",
+      "trap_name": "clean_single",
+      "amount_paise": 1389839,
+      "status": "matched",
+      "match_method": "batch_sum_exact",
+      "matched_batch_id": "setl_014",
+      "exception_type": null,
+      "severity": null,
+      "expected_outcome": "matched",
+      "correct": true
+    },
+    {
+      "record_key": "bank_14",
+      "trap_name": "clean_single",
+      "amount_paise": 6097675,
+      "status": "matched",
+      "match_method": "utr_exact",
+      "matched_batch_id": "setl_015",
+      "exception_type": null,
+      "severity": null,
+      "expected_outcome": "matched",
+      "correct": true
+    },
+    {
+      "record_key": "bank_15",
+      "trap_name": "clean_batch",
+      "amount_paise": 4864437,
+      "status": "matched",
+      "match_method": "utr_exact",
+      "matched_batch_id": "setl_016",
+      "exception_type": null,
+      "severity": null,
+      "expected_outcome": "matched",
+      "correct": true
+    },
+    {
+      "record_key": "bank_16",
+      "trap_name": "clean_batch",
+      "amount_paise": 6655568,
+      "status": "matched",
+      "match_method": "utr_exact",
+      "matched_batch_id": "setl_017",
+      "exception_type": null,
+      "severity": null,
+      "expected_outcome": "matched",
+      "correct": true
+    },
+    {
+      "record_key": "bank_17",
+      "trap_name": "clean_batch",
+      "amount_paise": 8319460,
+      "status": "matched",
+      "match_method": "utr_exact",
+      "matched_batch_id": "setl_018",
+      "exception_type": null,
+      "severity": null,
+      "expected_outcome": "matched",
+      "correct": true
+    },
+    {
+      "record_key": "bank_18",
+      "trap_name": "clean_batch",
+      "amount_paise": 5089552,
+      "status": "matched",
+      "match_method": "utr_exact",
+      "matched_batch_id": "setl_019",
+      "exception_type": null,
+      "severity": null,
+      "expected_outcome": "matched",
+      "correct": true
+    },
+    {
+      "record_key": "bank_19",
+      "trap_name": "batch_no_utr",
+      "amount_paise": 5383180,
+      "status": "matched",
+      "match_method": "batch_sum_exact",
+      "matched_batch_id": "setl_020",
+      "exception_type": null,
+      "severity": null,
+      "expected_outcome": "matched",
+      "correct": true
+    },
+    {
+      "record_key": "bank_20",
+      "trap_name": "batch_no_utr",
+      "amount_paise": 3601837,
+      "status": "matched",
+      "match_method": "batch_sum_exact",
+      "matched_batch_id": "setl_021",
+      "exception_type": null,
+      "severity": null,
+      "expected_outcome": "matched",
+      "correct": true
+    },
+    {
+      "record_key": "bank_21",
+      "trap_name": "clean_batch",
+      "amount_paise": 8808840,
+      "status": "matched",
+      "match_method": "utr_exact",
+      "matched_batch_id": "setl_022",
+      "exception_type": null,
+      "severity": null,
+      "expected_outcome": "matched",
+      "correct": true
+    },
+    {
+      "record_key": "bank_22",
+      "trap_name": "duplicate_credit",
+      "amount_paise": 8808840,
+      "status": "exception",
+      "match_method": null,
+      "matched_batch_id": null,
+      "exception_type": "duplicate_credit",
+      "severity": "high",
+      "expected_outcome": "exception",
+      "correct": true
+    },
+    {
+      "record_key": "bank_23",
+      "trap_name": "short_pay_within_tolerance",
+      "amount_paise": 1727461,
+      "status": "matched",
+      "match_method": "batch_sum_tolerance",
+      "matched_batch_id": "setl_026",
+      "exception_type": null,
+      "severity": null,
+      "expected_outcome": "matched",
+      "correct": true
+    },
+    {
+      "record_key": "bank_24",
+      "trap_name": "variance_breach",
+      "amount_paise": 6014064,
+      "status": "exception",
+      "match_method": null,
+      "matched_batch_id": null,
+      "exception_type": "variance_breach",
+      "severity": "high",
+      "expected_outcome": "exception",
+      "correct": true
+    },
+    {
+      "record_key": "bank_25",
+      "trap_name": "fees_not_deducted",
+      "amount_paise": 6000000,
+      "status": "exception",
+      "match_method": null,
+      "matched_batch_id": null,
+      "exception_type": "variance_breach",
+      "severity": "high",
+      "expected_outcome": "exception",
+      "correct": true
+    },
+    {
+      "record_key": "bank_26",
+      "trap_name": "zero_value_settlement",
+      "amount_paise": 0,
+      "status": "matched",
+      "match_method": "utr_exact",
+      "matched_batch_id": "setl_029",
+      "exception_type": null,
+      "severity": null,
+      "expected_outcome": "matched",
+      "correct": true
+    },
+    {
+      "record_key": "bank_27",
+      "trap_name": "refund_batch",
+      "amount_paise": -225115,
+      "status": "matched",
+      "match_method": "utr_exact",
+      "matched_batch_id": "setl_030",
+      "exception_type": null,
+      "severity": null,
+      "expected_outcome": "matched",
+      "correct": true
+    },
+    {
+      "record_key": "bank_28",
+      "trap_name": "ambiguous_amount",
+      "amount_paise": 2446900,
+      "status": "exception",
+      "match_method": null,
+      "matched_batch_id": null,
+      "exception_type": "ambiguous_amount",
+      "severity": "medium",
+      "expected_outcome": "exception",
+      "correct": true
+    },
+    {
+      "record_key": "bank_29",
+      "trap_name": "ambiguous_amount",
+      "amount_paise": 2446900,
+      "status": "exception",
+      "match_method": null,
+      "matched_batch_id": null,
+      "exception_type": "ambiguous_amount",
+      "severity": "medium",
+      "expected_outcome": "exception",
+      "correct": true
+    },
+    {
+      "record_key": "bank_30",
+      "trap_name": "unparseable_narration_unresolvable",
+      "amount_paise": 2446900,
+      "status": "exception",
+      "match_method": null,
+      "matched_batch_id": null,
+      "exception_type": "ambiguous_amount",
+      "severity": "medium",
+      "expected_outcome": "exception",
+      "correct": true
+    },
+    {
+      "record_key": "bank_31",
+      "trap_name": "orphan_bank_credit",
+      "amount_paise": 735000,
+      "status": "exception",
+      "match_method": null,
+      "matched_batch_id": null,
+      "exception_type": "utr_found_no_matching_batch",
+      "severity": "medium",
+      "expected_outcome": "exception",
+      "correct": true
+    },
+    {
+      "record_key": "bank_32",
+      "trap_name": "unparseable_narration_recovered",
+      "amount_paise": 2813935,
+      "status": "matched",
+      "match_method": "batch_sum_exact",
+      "matched_batch_id": "setl_034",
+      "exception_type": null,
+      "severity": null,
+      "expected_outcome": "matched",
+      "correct": true
+    },
+    {
+      "record_key": "setl_023",
+      "trap_name": "missing_settlement",
+      "amount_paise": null,
+      "status": "exception",
+      "match_method": null,
+      "matched_batch_id": null,
+      "exception_type": "missing_settlement",
+      "severity": "high",
+      "expected_outcome": "exception",
+      "correct": true
+    },
+    {
+      "record_key": "setl_024",
+      "trap_name": "missing_settlement",
+      "amount_paise": null,
+      "status": "exception",
+      "match_method": null,
+      "matched_batch_id": null,
+      "exception_type": "missing_settlement",
+      "severity": "high",
+      "expected_outcome": "exception",
+      "correct": true
+    },
+    {
+      "record_key": "setl_025",
+      "trap_name": "missing_settlement",
+      "amount_paise": null,
+      "status": "exception",
+      "match_method": null,
+      "matched_batch_id": null,
+      "exception_type": "missing_settlement",
+      "severity": "high",
+      "expected_outcome": "exception",
+      "correct": true
+    },
+    {
+      "record_key": "ord_054",
+      "trap_name": "order_never_settled",
+      "amount_paise": null,
+      "status": "exception",
+      "match_method": null,
+      "matched_batch_id": null,
+      "exception_type": "order_never_settled",
+      "severity": "medium",
+      "expected_outcome": "exception",
+      "correct": true
+    },
+    {
+      "record_key": "ord_055",
+      "trap_name": "order_never_settled",
+      "amount_paise": null,
+      "status": "exception",
+      "match_method": null,
+      "matched_batch_id": null,
+      "exception_type": "order_never_settled",
+      "severity": "medium",
+      "expected_outcome": "exception",
+      "correct": true
+    },
+    {
+      "record_key": "ord_056",
+      "trap_name": "order_never_settled",
+      "amount_paise": null,
+      "status": "exception",
+      "match_method": null,
+      "matched_batch_id": null,
+      "exception_type": "order_never_settled",
+      "severity": "medium",
+      "expected_outcome": "exception",
+      "correct": true
+    }
+  ],
+  "exceptions": [
+    {
+      "record_key": "bank_22",
+      "exception_type": "duplicate_credit",
+      "severity": "high",
+      "requires_human_review": true,
+      "evidence": {
+        "utr": "1Z7QS613",
+        "first_seen_in": "bank_21",
+        "duplicate_of": "bank_22",
+        "amount_paise": 8808840
+      }
+    },
+    {
+      "record_key": "bank_24",
+      "exception_type": "variance_breach",
+      "severity": "high",
+      "requires_human_review": true,
+      "evidence": {
+        "candidate_batch_id": "setl_027",
+        "bank_amount_paise": 6014064,
+        "batch_net_paise": 6264064,
+        "delta_paise": -250000,
+        "delta_rupees": "-\u20b92,500.00",
+        "likely_cause": "extra_deduction"
+      }
+    },
+    {
+      "record_key": "bank_25",
+      "exception_type": "variance_breach",
+      "severity": "high",
+      "requires_human_review": true,
+      "evidence": {
+        "candidate_batch_id": "setl_028",
+        "bank_amount_paise": 6000000,
+        "batch_net_paise": 5872560,
+        "delta_paise": 127440,
+        "delta_rupees": "\u20b91,274.40",
+        "likely_cause": "fees_not_deducted"
+      }
+    },
+    {
+      "record_key": "bank_28",
+      "exception_type": "ambiguous_amount",
+      "severity": "medium",
+      "requires_human_review": true,
+      "evidence": {
+        "bank_amount_paise": 2446900,
+        "candidate_batch_ids": [
+          "setl_031",
+          "setl_032",
+          "setl_033"
+        ],
+        "candidate_count": 3,
+        "resolution": "manual_review_required"
+      }
+    },
+    {
+      "record_key": "bank_29",
+      "exception_type": "ambiguous_amount",
+      "severity": "medium",
+      "requires_human_review": true,
+      "evidence": {
+        "bank_amount_paise": 2446900,
+        "candidate_batch_ids": [
+          "setl_031",
+          "setl_032",
+          "setl_033"
+        ],
+        "candidate_count": 3,
+        "resolution": "manual_review_required"
+      }
+    },
+    {
+      "record_key": "bank_30",
+      "exception_type": "ambiguous_amount",
+      "severity": "medium",
+      "requires_human_review": true,
+      "evidence": {
+        "bank_amount_paise": 2446900,
+        "candidate_batch_ids": [
+          "setl_031",
+          "setl_032",
+          "setl_033"
+        ],
+        "candidate_count": 3,
+        "resolution": "manual_review_required"
+      }
+    },
+    {
+      "record_key": "bank_31",
+      "exception_type": "utr_found_no_matching_batch",
+      "severity": "medium",
+      "requires_human_review": true,
+      "evidence": {
+        "utr": "ZZ9911QQ",
+        "bank_amount_paise": 735000,
+        "searched_batch_count": 34,
+        "closest_batch_id": "setl_007",
+        "closest_delta_paise": -224185
+      }
+    },
+    {
+      "record_key": "setl_023",
+      "exception_type": "missing_settlement",
+      "severity": "high",
+      "requires_human_review": true,
+      "evidence": {
+        "batch_id": "setl_023",
+        "batch_net_paise": 1810706,
+        "payment_ids": [
+          "pay_037"
+        ],
+        "settled_at": "2024-01-20 15:00:00",
+        "days_since_settlement": 948,
+        "recommended_action": "check_bank_statement_for_date_range"
+      }
+    },
+    {
+      "record_key": "setl_024",
+      "exception_type": "missing_settlement",
+      "severity": "high",
+      "requires_human_review": true,
+      "evidence": {
+        "batch_id": "setl_024",
+        "batch_net_paise": 2153272,
+        "payment_ids": [
+          "pay_038"
+        ],
+        "settled_at": "2024-01-21 13:00:00",
+        "days_since_settlement": 947,
+        "recommended_action": "check_bank_statement_for_date_range"
+      }
+    },
+    {
+      "record_key": "setl_025",
+      "exception_type": "missing_settlement",
+      "severity": "high",
+      "requires_human_review": true,
+      "evidence": {
+        "batch_id": "setl_025",
+        "batch_net_paise": 3229908,
+        "payment_ids": [
+          "pay_039"
+        ],
+        "settled_at": "2024-01-22 11:00:00",
+        "days_since_settlement": 946,
+        "recommended_action": "check_bank_statement_for_date_range"
+      }
+    },
+    {
+      "record_key": "ord_054",
+      "exception_type": "order_never_settled",
+      "severity": "medium",
+      "requires_human_review": false,
+      "evidence": {
+        "order_id": "ord_054",
+        "amount_paise": 540000,
+        "status": "failed",
+        "created_at": "2024-01-20 06:00:00",
+        "product_category": "books",
+        "days_outstanding": 948
+      }
+    },
+    {
+      "record_key": "ord_055",
+      "exception_type": "order_never_settled",
+      "severity": "medium",
+      "requires_human_review": false,
+      "evidence": {
+        "order_id": "ord_055",
+        "amount_paise": 1275000,
+        "status": "failed",
+        "created_at": "2024-01-19 21:00:00",
+        "product_category": "electronics",
+        "days_outstanding": 949
+      }
+    },
+    {
+      "record_key": "ord_056",
+      "exception_type": "order_never_settled",
+      "severity": "medium",
+      "requires_human_review": false,
+      "evidence": {
+        "order_id": "ord_056",
+        "amount_paise": 890000,
+        "status": "pending",
+        "created_at": "2024-01-20 07:00:00",
+        "product_category": "home",
+        "days_outstanding": 948
+      }
+    }
+  ],
+  "audit_trail": [
+    {
+      "seq": 0,
+      "record_id": "bank_0",
+      "pass": 1,
+      "status": "pending",
+      "reason": "No UTR extracted from narration",
+      "amount_paise": 2397962,
+      "metadata": {},
+      "timestamp": "2026-08-25T09:11:37.764721+00:00"
+    },
+    {
+      "seq": 0,
+      "record_id": "bank_0",
+      "pass": 2,
+      "status": "matched",
+      "reason": "Batch sum exact match within 3-day window",
+      "amount_paise": 2397962,
+      "metadata": {
+        "candidates_considered": [
+          {
+            "batch_id": "setl_001",
+            "date_diff_days": 0,
+            "delta_paise": 0,
+            "net_paise": 2397962
+          },
+          {
+            "batch_id": "setl_004",
+            "date_diff_days": 2,
+            "delta_paise": 548106,
+            "net_paise": 1849856
+          },
+          {
+            "batch_id": "setl_003",
+            "date_diff_days": 2,
+            "delta_paise": -9836538,
+            "net_paise": 12234500
+          },
+          {
+            "batch_id": "setl_005",
+            "date_diff_days": 3,
+            "delta_paise": -1722618,
+            "net_paise": 4120580
+          }
+        ],
+        "flags": {
+          "refund": false,
+          "zero_value": false
+        },
+        "pass": 2
+      },
+      "timestamp": "2026-08-25T09:11:37.770525+00:00"
+    },
+    {
+      "seq": 0,
+      "record_id": "bank_24",
+      "pass": 3,
+      "status": "exception",
+      "reason": "UTR found but no matching batch: X8KFUES5",
+      "amount_paise": 6014064,
+      "metadata": {
+        "ai_called": false,
+        "ai_raw_response": null,
+        "confidence": null,
+        "exception_type": "utr_found_no_matching_batch",
+        "extracted_ref": null,
+        "fallback_mode": false,
+        "narration": "NEFT-RAZORPAY-UTRX8KFUES5",
+        "pass": 3,
+        "ref_type": null,
+        "retry_lookup_attempted": false,
+        "retry_lookup_found": false,
+        "utr_before_ai": "X8KFUES5"
+      },
+      "timestamp": "2026-08-25T09:11:37.775162+00:00"
+    },
+    {
+      "seq": 1,
+      "record_id": "bank_1",
+      "pass": 1,
+      "status": "matched",
+      "reason": "Exact UTR match: K9Q1UL0B",
+      "amount_paise": 3053731,
+      "metadata": {},
+      "timestamp": "2026-08-25T09:11:37.765084+00:00"
+    },
+    {
+      "seq": 1,
+      "record_id": "bank_2",
+      "pass": 2,
+      "status": "matched",
+      "reason": "Batch sum exact match within 3-day window",
+      "amount_paise": 12234500,
+      "metadata": {
+        "candidates_considered": [
+          {
+            "batch_id": "setl_003",
+            "date_diff_days": 0,
+            "delta_paise": 0,
+            "net_paise": 12234500
+          },
+          {
+            "batch_id": "setl_004",
+            "date_diff_days": 0,
+            "delta_paise": 10384644,
+            "net_paise": 1849856
+          },
+          {
+            "batch_id": "setl_005",
+            "date_diff_days": 1,
+            "delta_paise": 8113920,
+            "net_paise": 4120580
+          },
+          {
+            "batch_id": "setl_008",
+            "date_diff_days": 3,
+            "delta_paise": 9562485,
+            "net_paise": 2672015
+          },
+          {
+            "batch_id": "setl_007",
+            "date_diff_days": 3,
+            "delta_paise": 11275315,
+            "net_paise": 959185
+          }
+        ],
+        "flags": {
+          "refund": false,
+          "zero_value": false
+        },
+        "pass": 2
+      },
+      "timestamp": "2026-08-25T09:11:37.770895+00:00"
+    },
+    {
+      "seq": 1,
+      "record_id": "bank_25",
+      "pass": 3,
+      "status": "exception",
+      "reason": "UTR found but no matching batch: H7S3110U",
+      "amount_paise": 6000000,
+      "metadata": {
+        "ai_called": false,
+        "ai_raw_response": null,
+        "confidence": null,
+        "exception_type": "utr_found_no_matching_batch",
+        "extracted_ref": null,
+        "fallback_mode": false,
+        "narration": "NEFT-RAZORPAY-UTRH7S3110U",
+        "pass": 3,
+        "ref_type": null,
+        "retry_lookup_attempted": false,
+        "retry_lookup_found": false,
+        "utr_before_ai": "H7S3110U"
+      },
+      "timestamp": "2026-08-25T09:11:37.775360+00:00"
+    },
+    {
+      "seq": 2,
+      "record_id": "bank_2",
+      "pass": 1,
+      "status": "pending",
+      "reason": "No settlement batch found for UTR: RTGSWCXVS27E",
+      "amount_paise": 12234500,
+      "metadata": {
+        "utr": "RTGSWCXVS27E"
+      },
+      "timestamp": "2026-08-25T09:11:37.765196+00:00"
+    },
+    {
+      "seq": 2,
+      "record_id": "bank_3",
+      "pass": 2,
+      "status": "matched",
+      "reason": "Batch sum exact match within 3-day window",
+      "amount_paise": 1849856,
+      "metadata": {
+        "candidates_considered": [
+          {
+            "batch_id": "setl_004",
+            "date_diff_days": 0,
+            "delta_paise": 0,
+            "net_paise": 1849856
+          },
+          {
+            "batch_id": "setl_005",
+            "date_diff_days": 1,
+            "delta_paise": -2270724,
+            "net_paise": 4120580
+          },
+          {
+            "batch_id": "setl_008",
+            "date_diff_days": 3,
+            "delta_paise": -822159,
+            "net_paise": 2672015
+          },
+          {
+            "batch_id": "setl_007",
+            "date_diff_days": 3,
+            "delta_paise": 890671,
+            "net_paise": 959185
+          }
+        ],
+        "flags": {
+          "refund": false,
+          "zero_value": false
+        },
+        "pass": 2
+      },
+      "timestamp": "2026-08-25T09:11:37.771114+00:00"
+    },
+    {
+      "seq": 2,
+      "record_id": "bank_28",
+      "pass": 3,
+      "status": "exception",
+      "reason": "Extracted reference '433632' not found in settlement batches",
+      "amount_paise": 2446900,
+      "metadata": {
+        "ai_called": true,
+        "ai_raw_response": "{\"extracted_ref\": \"433632\", \"confidence\": \"high\", \"ref_type\": \"utr\"}",
+        "confidence": "high",
+        "exception_type": "unparseable_narration_unresolvable",
+        "extracted_ref": "433632",
+        "fallback_mode": false,
+        "narration": "IMPS/433632/RAZORPAY-SETTLEMENT",
+        "pass": 3,
+        "ref_type": "utr",
+        "retry_lookup_attempted": true,
+        "retry_lookup_found": false,
+        "utr_before_ai": null
+      },
+      "timestamp": "2026-08-25T09:11:38.263018+00:00"
+    },
+    {
+      "seq": 3,
+      "record_id": "bank_3",
+      "pass": 1,
+      "status": "pending",
+      "reason": "No UTR extracted from narration",
+      "amount_paise": 1849856,
+      "metadata": {},
+      "timestamp": "2026-08-25T09:11:37.765296+00:00"
+    },
+    {
+      "seq": 3,
+      "record_id": "bank_4",
+      "pass": 2,
+      "status": "matched",
+      "reason": "Batch sum exact match within 3-day window",
+      "amount_paise": 4120580,
+      "metadata": {
+        "candidates_considered": [
+          {
+            "batch_id": "setl_005",
+            "date_diff_days": 0,
+            "delta_paise": 0,
+            "net_paise": 4120580
+          },
+          {
+            "batch_id": "setl_008",
+            "date_diff_days": 2,
+            "delta_paise": 1448565,
+            "net_paise": 2672015
+          },
+          {
+            "batch_id": "setl_007",
+            "date_diff_days": 2,
+            "delta_paise": 3161395,
+            "net_paise": 959185
+          },
+          {
+            "batch_id": "setl_009",
+            "date_diff_days": 3,
+            "delta_paise": -5177640,
+            "net_paise": 9298220
+          }
+        ],
+        "flags": {
+          "refund": false,
+          "zero_value": false
+        },
+        "pass": 2
+      },
+      "timestamp": "2026-08-25T09:11:37.771299+00:00"
+    },
+    {
+      "seq": 3,
+      "record_id": "bank_29",
+      "pass": 3,
+      "status": "exception",
+      "reason": "Extracted reference '608367' not found in settlement batches",
+      "amount_paise": 2446900,
+      "metadata": {
+        "ai_called": true,
+        "ai_raw_response": "{\"extracted_ref\": \"608367\", \"confidence\": \"high\", \"ref_type\": \"utr\"}",
+        "confidence": "high",
+        "exception_type": "unparseable_narration_unresolvable",
+        "extracted_ref": "608367",
+        "fallback_mode": false,
+        "narration": "IMPS/608367/RAZORPAY-SETTLEMENT",
+        "pass": 3,
+        "ref_type": "utr",
+        "retry_lookup_attempted": true,
+        "retry_lookup_found": false,
+        "utr_before_ai": null
+      },
+      "timestamp": "2026-08-25T09:11:38.474293+00:00"
+    },
+    {
+      "seq": 4,
+      "record_id": "bank_4",
+      "pass": 1,
+      "status": "pending",
+      "reason": "No UTR extracted from narration",
+      "amount_paise": 4120580,
+      "metadata": {},
+      "timestamp": "2026-08-25T09:11:37.765385+00:00"
+    },
+    {
+      "seq": 4,
+      "record_id": "bank_6",
+      "pass": 2,
+      "status": "matched",
+      "reason": "Batch sum exact match within 3-day window",
+      "amount_paise": 959185,
+      "metadata": {
+        "candidates_considered": [
+          {
+            "batch_id": "setl_007",
+            "date_diff_days": 0,
+            "delta_paise": 0,
+            "net_paise": 959185
+          },
+          {
+            "batch_id": "setl_008",
+            "date_diff_days": 0,
+            "delta_paise": -1712830,
+            "net_paise": 2672015
+          },
+          {
+            "batch_id": "setl_009",
+            "date_diff_days": 1,
+            "delta_paise": -8339035,
+            "net_paise": 9298220
+          },
+          {
+            "batch_id": "setl_011",
+            "date_diff_days": 3,
+            "delta_paise": -3826951,
+            "net_paise": 4786136
+          }
+        ],
+        "flags": {
+          "refund": false,
+          "zero_value": false
+        },
+        "pass": 2
+      },
+      "timestamp": "2026-08-25T09:11:37.771566+00:00"
+    },
+    {
+      "seq": 4,
+      "record_id": "bank_30",
+      "pass": 3,
+      "status": "exception",
+      "reason": "AI could not extract a reliable reference from narration",
+      "amount_paise": 2446900,
+      "metadata": {
+        "ai_called": true,
+        "ai_raw_response": "{\"extracted_ref\": null, \"confidence\": \"low\", \"ref_type\": \"unknown\"}",
+        "confidence": "low",
+        "exception_type": "unparseable_narration_unresolvable",
+        "extracted_ref": null,
+        "fallback_mode": false,
+        "narration": "MISC CR 1320075 CLG",
+        "pass": 3,
+        "ref_type": "unknown",
+        "retry_lookup_attempted": false,
+        "retry_lookup_found": false,
+        "utr_before_ai": null
+      },
+      "timestamp": "2026-08-25T09:11:38.677755+00:00"
+    },
+    {
+      "seq": 5,
+      "record_id": "bank_5",
+      "pass": 1,
+      "status": "matched",
+      "reason": "Exact UTR match: NLQSZZ1N",
+      "amount_paise": 3807376,
+      "metadata": {},
+      "timestamp": "2026-08-25T09:11:37.765466+00:00"
+    },
+    {
+      "seq": 5,
+      "record_id": "bank_7",
+      "pass": 2,
+      "status": "matched",
+      "reason": "Batch sum exact match within 3-day window",
+      "amount_paise": 2672015,
+      "metadata": {
+        "candidates_considered": [
+          {
+            "batch_id": "setl_008",
+            "date_diff_days": 0,
+            "delta_paise": 0,
+            "net_paise": 2672015
+          },
+          {
+            "batch_id": "setl_009",
+            "date_diff_days": 1,
+            "delta_paise": -6626205,
+            "net_paise": 9298220
+          },
+          {
+            "batch_id": "setl_011",
+            "date_diff_days": 3,
+            "delta_paise": -2114121,
+            "net_paise": 4786136
+          }
+        ],
+        "flags": {
+          "refund": false,
+          "zero_value": false
+        },
+        "pass": 2
+      },
+      "timestamp": "2026-08-25T09:11:37.771863+00:00"
+    },
+    {
+      "seq": 5,
+      "record_id": "bank_31",
+      "pass": 3,
+      "status": "exception",
+      "reason": "UTR found but no matching batch: ZZ9911QQ",
+      "amount_paise": 735000,
+      "metadata": {
+        "ai_called": false,
+        "ai_raw_response": null,
+        "confidence": null,
+        "exception_type": "utr_found_no_matching_batch",
+        "extracted_ref": null,
+        "fallback_mode": false,
+        "narration": "NEFT-OTHERBANK-UTRZZ9911QQ",
+        "pass": 3,
+        "ref_type": null,
+        "retry_lookup_attempted": false,
+        "retry_lookup_found": false,
+        "utr_before_ai": "ZZ9911QQ"
+      },
+      "timestamp": "2026-08-25T09:11:38.678518+00:00"
+    },
+    {
+      "seq": 6,
+      "record_id": "bank_6",
+      "pass": 1,
+      "status": "pending",
+      "reason": "No UTR extracted from narration",
+      "amount_paise": 959185,
+      "metadata": {},
+      "timestamp": "2026-08-25T09:11:37.765540+00:00"
+    },
+    {
+      "seq": 6,
+      "record_id": "bank_8",
+      "pass": 2,
+      "status": "matched",
+      "reason": "Batch sum exact match within 3-day window",
+      "amount_paise": 9298220,
+      "metadata": {
+        "candidates_considered": [
+          {
+            "batch_id": "setl_009",
+            "date_diff_days": 0,
+            "delta_paise": 0,
+            "net_paise": 9298220
+          },
+          {
+            "batch_id": "setl_011",
+            "date_diff_days": 2,
+            "delta_paise": 4512084,
+            "net_paise": 4786136
+          },
+          {
+            "batch_id": "setl_012",
+            "date_diff_days": 3,
+            "delta_paise": 7683266,
+            "net_paise": 1614954
+          }
+        ],
+        "flags": {
+          "refund": false,
+          "zero_value": false
+        },
+        "pass": 2
+      },
+      "timestamp": "2026-08-25T09:11:37.772056+00:00"
+    },
+    {
+      "seq": 7,
+      "record_id": "bank_7",
+      "pass": 1,
+      "status": "pending",
+      "reason": "No UTR extracted from narration",
+      "amount_paise": 2672015,
+      "metadata": {},
+      "timestamp": "2026-08-25T09:11:37.765604+00:00"
+    },
+    {
+      "seq": 7,
+      "record_id": "bank_10",
+      "pass": 2,
+      "status": "matched",
+      "reason": "Batch sum exact match within 3-day window",
+      "amount_paise": 4786136,
+      "metadata": {
+        "candidates_considered": [
+          {
+            "batch_id": "setl_011",
+            "date_diff_days": 0,
+            "delta_paise": 0,
+            "net_paise": 4786136
+          },
+          {
+            "batch_id": "setl_012",
+            "date_diff_days": 1,
+            "delta_paise": 3171182,
+            "net_paise": 1614954
+          },
+          {
+            "batch_id": "setl_014",
+            "date_diff_days": 3,
+            "delta_paise": 3396297,
+            "net_paise": 1389839
+          }
+        ],
+        "flags": {
+          "refund": false,
+          "zero_value": false
+        },
+        "pass": 2
+      },
+      "timestamp": "2026-08-25T09:11:37.772216+00:00"
+    },
+    {
+      "seq": 8,
+      "record_id": "bank_8",
+      "pass": 1,
+      "status": "pending",
+      "reason": "No settlement batch found for UTR: RTGS3PH5TFZ7",
+      "amount_paise": 9298220,
+      "metadata": {
+        "utr": "RTGS3PH5TFZ7"
+      },
+      "timestamp": "2026-08-25T09:11:37.765667+00:00"
+    },
+    {
+      "seq": 8,
+      "record_id": "bank_11",
+      "pass": 2,
+      "status": "matched",
+      "reason": "Batch sum exact match within 3-day window",
+      "amount_paise": 1614954,
+      "metadata": {
+        "candidates_considered": [
+          {
+            "batch_id": "setl_012",
+            "date_diff_days": 0,
+            "delta_paise": 0,
+            "net_paise": 1614954
+          },
+          {
+            "batch_id": "setl_014",
+            "date_diff_days": 2,
+            "delta_paise": 225115,
+            "net_paise": 1389839
+          }
+        ],
+        "flags": {
+          "refund": false,
+          "zero_value": false
+        },
+        "pass": 2
+      },
+      "timestamp": "2026-08-25T09:11:37.772359+00:00"
+    },
+    {
+      "seq": 9,
+      "record_id": "bank_9",
+      "pass": 1,
+      "status": "matched",
+      "reason": "Exact UTR match: WBLSAPEF",
+      "amount_paise": 2163060,
+      "metadata": {},
+      "timestamp": "2026-08-25T09:11:37.765743+00:00"
+    },
+    {
+      "seq": 9,
+      "record_id": "bank_13",
+      "pass": 2,
+      "status": "matched",
+      "reason": "Batch sum exact match within 3-day window",
+      "amount_paise": 1389839,
+      "metadata": {
+        "candidates_considered": [
+          {
+            "batch_id": "setl_014",
+            "date_diff_days": 0,
+            "delta_paise": 0,
+            "net_paise": 1389839
+          }
+        ],
+        "flags": {
+          "refund": false,
+          "zero_value": false
+        },
+        "pass": 2
+      },
+      "timestamp": "2026-08-25T09:11:37.772486+00:00"
+    },
+    {
+      "seq": 10,
+      "record_id": "bank_10",
+      "pass": 1,
+      "status": "pending",
+      "reason": "No UTR extracted from narration",
+      "amount_paise": 4786136,
+      "metadata": {},
+      "timestamp": "2026-08-25T09:11:37.765835+00:00"
+    },
+    {
+      "seq": 10,
+      "record_id": "bank_19",
+      "pass": 2,
+      "status": "matched",
+      "reason": "Batch sum exact match within 3-day window",
+      "amount_paise": 5383180,
+      "metadata": {
+        "candidates_considered": [
+          {
+            "batch_id": "setl_020",
+            "date_diff_days": 0,
+            "delta_paise": 0,
+            "net_paise": 5383180
+          },
+          {
+            "batch_id": "setl_021",
+            "date_diff_days": 0,
+            "delta_paise": 1781343,
+            "net_paise": 3601837
+          },
+          {
+            "batch_id": "setl_023",
+            "date_diff_days": 2,
+            "delta_paise": 3572474,
+            "net_paise": 1810706
+          },
+          {
+            "batch_id": "setl_024",
+            "date_diff_days": 3,
+            "delta_paise": 3229908,
+            "net_paise": 2153272
+          }
+        ],
+        "flags": {
+          "refund": false,
+          "zero_value": false
+        },
+        "pass": 2
+      },
+      "timestamp": "2026-08-25T09:11:37.772645+00:00"
+    },
+    {
+      "seq": 11,
+      "record_id": "bank_11",
+      "pass": 1,
+      "status": "pending",
+      "reason": "No UTR extracted from narration",
+      "amount_paise": 1614954,
+      "metadata": {},
+      "timestamp": "2026-08-25T09:11:37.765904+00:00"
+    },
+    {
+      "seq": 11,
+      "record_id": "bank_20",
+      "pass": 2,
+      "status": "matched",
+      "reason": "Batch sum exact match within 3-day window",
+      "amount_paise": 3601837,
+      "metadata": {
+        "candidates_considered": [
+          {
+            "batch_id": "setl_021",
+            "date_diff_days": 0,
+            "delta_paise": 0,
+            "net_paise": 3601837
+          },
+          {
+            "batch_id": "setl_023",
+            "date_diff_days": 2,
+            "delta_paise": 1791131,
+            "net_paise": 1810706
+          },
+          {
+            "batch_id": "setl_024",
+            "date_diff_days": 3,
+            "delta_paise": 1448565,
+            "net_paise": 2153272
+          }
+        ],
+        "flags": {
+          "refund": false,
+          "zero_value": false
+        },
+        "pass": 2
+      },
+      "timestamp": "2026-08-25T09:11:37.772878+00:00"
+    },
+    {
+      "seq": 12,
+      "record_id": "bank_12",
+      "pass": 1,
+      "status": "matched",
+      "reason": "Exact UTR match: 5AYTCCWC",
+      "amount_paise": 5226578,
+      "metadata": {},
+      "timestamp": "2026-08-25T09:11:37.765974+00:00"
+    },
+    {
+      "seq": 12,
+      "record_id": "bank_23",
+      "pass": 2,
+      "status": "matched",
+      "reason": "Batch sum within tolerance (50 paise)",
+      "amount_paise": 1727461,
+      "metadata": {
+        "candidates_considered": [
+          {
+            "batch_id": "setl_026",
+            "date_diff_days": 0,
+            "delta_paise": -50,
+            "net_paise": 1727511
+          },
+          {
+            "batch_id": "setl_025",
+            "date_diff_days": 1,
+            "delta_paise": -1502447,
+            "net_paise": 3229908
+          },
+          {
+            "batch_id": "setl_027",
+            "date_diff_days": 1,
+            "delta_paise": -4536603,
+            "net_paise": 6264064
+          },
+          {
+            "batch_id": "setl_024",
+            "date_diff_days": 2,
+            "delta_paise": -425811,
+            "net_paise": 2153272
+          },
+          {
+            "batch_id": "setl_028",
+            "date_diff_days": 2,
+            "delta_paise": -4145099,
+            "net_paise": 5872560
+          },
+          {
+            "batch_id": "setl_023",
+            "date_diff_days": 3,
+            "delta_paise": -83245,
+            "net_paise": 1810706
+          }
+        ],
+        "flags": {
+          "refund": false,
+          "zero_value": false
+        },
+        "pass": 2
+      },
+      "timestamp": "2026-08-25T09:11:37.773030+00:00"
+    },
+    {
+      "seq": 13,
+      "record_id": "bank_13",
+      "pass": 1,
+      "status": "pending",
+      "reason": "No UTR extracted from narration",
+      "amount_paise": 1389839,
+      "metadata": {},
+      "timestamp": "2026-08-25T09:11:37.766044+00:00"
+    },
+    {
+      "seq": 13,
+      "record_id": "bank_24",
+      "pass": 2,
+      "status": "exception",
+      "reason": "Variance breach: delta 250000 paise exceeds tolerance 100",
+      "amount_paise": 6014064,
+      "metadata": {
+        "candidates_considered": [
+          {
+            "batch_id": "setl_027",
+            "date_diff_days": 0,
+            "delta_paise": -250000,
+            "net_paise": 6264064
+          },
+          {
+            "batch_id": "setl_028",
+            "date_diff_days": 1,
+            "delta_paise": 141504,
+            "net_paise": 5872560
+          },
+          {
+            "batch_id": "setl_025",
+            "date_diff_days": 2,
+            "delta_paise": 2784156,
+            "net_paise": 3229908
+          },
+          {
+            "batch_id": "setl_031",
+            "date_diff_days": 3,
+            "delta_paise": 3567164,
+            "net_paise": 2446900
+          },
+          {
+            "batch_id": "setl_032",
+            "date_diff_days": 3,
+            "delta_paise": 3567164,
+            "net_paise": 2446900
+          },
+          {
+            "batch_id": "setl_033",
+            "date_diff_days": 3,
+            "delta_paise": 3567164,
+            "net_paise": 2446900
+          },
+          {
+            "batch_id": "setl_024",
+            "date_diff_days": 3,
+            "delta_paise": 3860792,
+            "net_paise": 2153272
+          }
+        ],
+        "exception_type": "variance_breach",
+        "flags": {
+          "refund": false,
+          "zero_value": false
+        },
+        "pass": 2
+      },
+      "timestamp": "2026-08-25T09:11:37.773184+00:00"
+    },
+    {
+      "seq": 14,
+      "record_id": "bank_14",
+      "pass": 1,
+      "status": "matched",
+      "reason": "Exact UTR match: WM2YJZPE",
+      "amount_paise": 6097675,
+      "metadata": {},
+      "timestamp": "2026-08-25T09:11:37.766111+00:00"
+    },
+    {
+      "seq": 14,
+      "record_id": "bank_25",
+      "pass": 2,
+      "status": "exception",
+      "reason": "Variance breach: delta 127440 paise exceeds tolerance 100",
+      "amount_paise": 6000000,
+      "metadata": {
+        "candidates_considered": [
+          {
+            "batch_id": "setl_028",
+            "date_diff_days": 0,
+            "delta_paise": 127440,
+            "net_paise": 5872560
+          },
+          {
+            "batch_id": "setl_027",
+            "date_diff_days": 1,
+            "delta_paise": -264064,
+            "net_paise": 6264064
+          },
+          {
+            "batch_id": "setl_031",
+            "date_diff_days": 2,
+            "delta_paise": 3553100,
+            "net_paise": 2446900
+          },
+          {
+            "batch_id": "setl_032",
+            "date_diff_days": 2,
+            "delta_paise": 3553100,
+            "net_paise": 2446900
+          },
+          {
+            "batch_id": "setl_033",
+            "date_diff_days": 2,
+            "delta_paise": 3553100,
+            "net_paise": 2446900
+          },
+          {
+            "batch_id": "setl_025",
+            "date_diff_days": 3,
+            "delta_paise": 2770092,
+            "net_paise": 3229908
+          }
+        ],
+        "exception_type": "variance_breach",
+        "flags": {
+          "refund": false,
+          "zero_value": false
+        },
+        "pass": 2
+      },
+      "timestamp": "2026-08-25T09:11:37.773387+00:00"
+    },
+    {
+      "seq": 15,
+      "record_id": "bank_15",
+      "pass": 1,
+      "status": "matched",
+      "reason": "Exact UTR match: XYQ1CYDQ",
+      "amount_paise": 4864437,
+      "metadata": {},
+      "timestamp": "2026-08-25T09:11:37.766176+00:00"
+    },
+    {
+      "seq": 15,
+      "record_id": "bank_28",
+      "pass": 2,
+      "status": "exception",
+      "reason": "Ambiguous: 3 batches match exactly within window",
+      "amount_paise": 2446900,
+      "metadata": {
+        "candidates_considered": [
+          {
+            "batch_id": "setl_031",
+            "date_diff_days": 0,
+            "delta_paise": 0,
+            "net_paise": 2446900
+          },
+          {
+            "batch_id": "setl_032",
+            "date_diff_days": 0,
+            "delta_paise": 0,
+            "net_paise": 2446900
+          },
+          {
+            "batch_id": "setl_033",
+            "date_diff_days": 0,
+            "delta_paise": 0,
+            "net_paise": 2446900
+          },
+          {
+            "batch_id": "setl_028",
+            "date_diff_days": 2,
+            "delta_paise": -3425660,
+            "net_paise": 5872560
+          },
+          {
+            "batch_id": "setl_034",
+            "date_diff_days": 3,
+            "delta_paise": -367035,
+            "net_paise": 2813935
+          },
+          {
+            "batch_id": "setl_027",
+            "date_diff_days": 3,
+            "delta_paise": -3817164,
+            "net_paise": 6264064
+          }
+        ],
+        "exception_type": "ambiguous_amount",
+        "flags": {
+          "refund": false,
+          "zero_value": false
+        },
+        "pass": 2
+      },
+      "timestamp": "2026-08-25T09:11:37.773551+00:00"
+    },
+    {
+      "seq": 16,
+      "record_id": "bank_16",
+      "pass": 1,
+      "status": "matched",
+      "reason": "Exact UTR match: AV4RJMDX",
+      "amount_paise": 6655568,
+      "metadata": {},
+      "timestamp": "2026-08-25T09:11:37.766255+00:00"
+    },
+    {
+      "seq": 16,
+      "record_id": "bank_29",
+      "pass": 2,
+      "status": "exception",
+      "reason": "Ambiguous: 3 batches match exactly within window",
+      "amount_paise": 2446900,
+      "metadata": {
+        "candidates_considered": [
+          {
+            "batch_id": "setl_031",
+            "date_diff_days": 0,
+            "delta_paise": 0,
+            "net_paise": 2446900
+          },
+          {
+            "batch_id": "setl_032",
+            "date_diff_days": 0,
+            "delta_paise": 0,
+            "net_paise": 2446900
+          },
+          {
+            "batch_id": "setl_033",
+            "date_diff_days": 0,
+            "delta_paise": 0,
+            "net_paise": 2446900
+          },
+          {
+            "batch_id": "setl_028",
+            "date_diff_days": 2,
+            "delta_paise": -3425660,
+            "net_paise": 5872560
+          },
+          {
+            "batch_id": "setl_034",
+            "date_diff_days": 3,
+            "delta_paise": -367035,
+            "net_paise": 2813935
+          },
+          {
+            "batch_id": "setl_027",
+            "date_diff_days": 3,
+            "delta_paise": -3817164,
+            "net_paise": 6264064
+          }
+        ],
+        "exception_type": "ambiguous_amount",
+        "flags": {
+          "refund": false,
+          "zero_value": false
+        },
+        "pass": 2
+      },
+      "timestamp": "2026-08-25T09:11:37.773704+00:00"
+    },
+    {
+      "seq": 17,
+      "record_id": "bank_17",
+      "pass": 1,
+      "status": "matched",
+      "reason": "Exact UTR match: W32JD4Q5",
+      "amount_paise": 8319460,
+      "metadata": {},
+      "timestamp": "2026-08-25T09:11:37.766321+00:00"
+    },
+    {
+      "seq": 17,
+      "record_id": "bank_30",
+      "pass": 2,
+      "status": "exception",
+      "reason": "Ambiguous: 3 batches match exactly within window",
+      "amount_paise": 2446900,
+      "metadata": {
+        "candidates_considered": [
+          {
+            "batch_id": "setl_031",
+            "date_diff_days": 0,
+            "delta_paise": 0,
+            "net_paise": 2446900
+          },
+          {
+            "batch_id": "setl_032",
+            "date_diff_days": 0,
+            "delta_paise": 0,
+            "net_paise": 2446900
+          },
+          {
+            "batch_id": "setl_033",
+            "date_diff_days": 0,
+            "delta_paise": 0,
+            "net_paise": 2446900
+          },
+          {
+            "batch_id": "setl_028",
+            "date_diff_days": 2,
+            "delta_paise": -3425660,
+            "net_paise": 5872560
+          },
+          {
+            "batch_id": "setl_034",
+            "date_diff_days": 3,
+            "delta_paise": -367035,
+            "net_paise": 2813935
+          },
+          {
+            "batch_id": "setl_027",
+            "date_diff_days": 3,
+            "delta_paise": -3817164,
+            "net_paise": 6264064
+          }
+        ],
+        "exception_type": "ambiguous_amount",
+        "flags": {
+          "refund": false,
+          "zero_value": false
+        },
+        "pass": 2
+      },
+      "timestamp": "2026-08-25T09:11:37.774156+00:00"
+    },
+    {
+      "seq": 18,
+      "record_id": "bank_18",
+      "pass": 1,
+      "status": "matched",
+      "reason": "Exact UTR match: X4SXF2YF",
+      "amount_paise": 5089552,
+      "metadata": {},
+      "timestamp": "2026-08-25T09:11:37.766403+00:00"
+    },
+    {
+      "seq": 18,
+      "record_id": "bank_31",
+      "pass": 2,
+      "status": "pending",
+      "reason": "No unique match found in window",
+      "amount_paise": 735000,
+      "metadata": {
+        "candidates_considered": [
+          {
+            "batch_id": "setl_034",
+            "date_diff_days": 1,
+            "delta_paise": -2078935,
+            "net_paise": 2813935
+          },
+          {
+            "batch_id": "setl_031",
+            "date_diff_days": 2,
+            "delta_paise": -1711900,
+            "net_paise": 2446900
+          },
+          {
+            "batch_id": "setl_032",
+            "date_diff_days": 2,
+            "delta_paise": -1711900,
+            "net_paise": 2446900
+          },
+          {
+            "batch_id": "setl_033",
+            "date_diff_days": 2,
+            "delta_paise": -1711900,
+            "net_paise": 2446900
+          }
+        ],
+        "exception_type": "no_unique_match",
+        "flags": {
+          "refund": false,
+          "zero_value": false
+        },
+        "pass": 2
+      },
+      "timestamp": "2026-08-25T09:11:37.774454+00:00"
+    },
+    {
+      "seq": 19,
+      "record_id": "bank_19",
+      "pass": 1,
+      "status": "pending",
+      "reason": "No UTR extracted from narration",
+      "amount_paise": 5383180,
+      "metadata": {},
+      "timestamp": "2026-08-25T09:11:37.766478+00:00"
+    },
+    {
+      "seq": 19,
+      "record_id": "bank_32",
+      "pass": 2,
+      "status": "matched",
+      "reason": "Batch sum exact match within 3-day window",
+      "amount_paise": 2813935,
+      "metadata": {
+        "candidates_considered": [
+          {
+            "batch_id": "setl_034",
+            "date_diff_days": 0,
+            "delta_paise": 0,
+            "net_paise": 2813935
+          },
+          {
+            "batch_id": "setl_031",
+            "date_diff_days": 3,
+            "delta_paise": 367035,
+            "net_paise": 2446900
+          },
+          {
+            "batch_id": "setl_032",
+            "date_diff_days": 3,
+            "delta_paise": 367035,
+            "net_paise": 2446900
+          },
+          {
+            "batch_id": "setl_033",
+            "date_diff_days": 3,
+            "delta_paise": 367035,
+            "net_paise": 2446900
+          }
+        ],
+        "flags": {
+          "refund": false,
+          "zero_value": false
+        },
+        "pass": 2
+      },
+      "timestamp": "2026-08-25T09:11:37.774662+00:00"
+    },
+    {
+      "seq": 20,
+      "record_id": "bank_20",
+      "pass": 1,
+      "status": "pending",
+      "reason": "No UTR extracted from narration",
+      "amount_paise": 3601837,
+      "metadata": {},
+      "timestamp": "2026-08-25T09:11:37.766560+00:00"
+    },
+    {
+      "seq": 21,
+      "record_id": "bank_21",
+      "pass": 1,
+      "status": "matched",
+      "reason": "Exact UTR match: 1Z7QS613",
+      "amount_paise": 8808840,
+      "metadata": {},
+      "timestamp": "2026-08-25T09:11:37.766639+00:00"
+    },
+    {
+      "seq": 22,
+      "record_id": "bank_22",
+      "pass": 1,
+      "status": "exception",
+      "reason": "Duplicate UTR in bank statement: 1Z7QS613",
+      "amount_paise": 8808840,
+      "metadata": {
+        "exception_type": "duplicate_credit",
+        "utr": "1Z7QS613"
+      },
+      "timestamp": "2026-08-25T09:11:37.766763+00:00"
+    },
+    {
+      "seq": 23,
+      "record_id": "bank_23",
+      "pass": 1,
+      "status": "pending",
+      "reason": "UTR match but amount mismatch (delta=-50 paise), deferring to Pass 2",
+      "amount_paise": 1727461,
+      "metadata": {
+        "batch_id": "setl_026",
+        "delta_paise": -50,
+        "utr": "3TFC09CL"
+      },
+      "timestamp": "2026-08-25T09:11:37.766877+00:00"
+    },
+    {
+      "seq": 24,
+      "record_id": "bank_24",
+      "pass": 1,
+      "status": "pending",
+      "reason": "UTR match but amount mismatch (delta=-250000 paise), deferring to Pass 2",
+      "amount_paise": 6014064,
+      "metadata": {
+        "batch_id": "setl_027",
+        "delta_paise": -250000,
+        "utr": "X8KFUES5"
+      },
+      "timestamp": "2026-08-25T09:11:37.766992+00:00"
+    },
+    {
+      "seq": 25,
+      "record_id": "bank_25",
+      "pass": 1,
+      "status": "pending",
+      "reason": "UTR match but amount mismatch (delta=127440 paise), deferring to Pass 2",
+      "amount_paise": 6000000,
+      "metadata": {
+        "batch_id": "setl_028",
+        "delta_paise": 127440,
+        "utr": "H7S3110U"
+      },
+      "timestamp": "2026-08-25T09:11:37.767099+00:00"
+    },
+    {
+      "seq": 26,
+      "record_id": "bank_26",
+      "pass": 1,
+      "status": "matched",
+      "reason": "Exact UTR match: XVGHRSSP",
+      "amount_paise": 0,
+      "metadata": {},
+      "timestamp": "2026-08-25T09:11:37.767185+00:00"
+    },
+    {
+      "seq": 27,
+      "record_id": "bank_27",
+      "pass": 1,
+      "status": "matched",
+      "reason": "Exact UTR match: H4VJTUAT",
+      "amount_paise": -225115,
+      "metadata": {},
+      "timestamp": "2026-08-25T09:11:37.767283+00:00"
+    },
+    {
+      "seq": 28,
+      "record_id": "bank_28",
+      "pass": 1,
+      "status": "pending",
+      "reason": "No UTR extracted from narration",
+      "amount_paise": 2446900,
+      "metadata": {},
+      "timestamp": "2026-08-25T09:11:37.767372+00:00"
+    },
+    {
+      "seq": 29,
+      "record_id": "bank_29",
+      "pass": 1,
+      "status": "pending",
+      "reason": "No UTR extracted from narration",
+      "amount_paise": 2446900,
+      "metadata": {},
+      "timestamp": "2026-08-25T09:11:37.767456+00:00"
+    },
+    {
+      "seq": 30,
+      "record_id": "bank_30",
+      "pass": 1,
+      "status": "pending",
+      "reason": "No UTR extracted from narration",
+      "amount_paise": 2446900,
+      "metadata": {},
+      "timestamp": "2026-08-25T09:11:37.767531+00:00"
+    },
+    {
+      "seq": 31,
+      "record_id": "bank_31",
+      "pass": 1,
+      "status": "pending",
+      "reason": "No settlement batch found for UTR: ZZ9911QQ",
+      "amount_paise": 735000,
+      "metadata": {
+        "utr": "ZZ9911QQ"
+      },
+      "timestamp": "2026-08-25T09:11:37.767609+00:00"
+    },
+    {
+      "seq": 32,
+      "record_id": "bank_32",
+      "pass": 1,
+      "status": "pending",
+      "reason": "No UTR extracted from narration",
+      "amount_paise": 2813935,
+      "metadata": {},
+      "timestamp": "2026-08-25T09:11:37.767701+00:00"
+    }
+  ],
+  "razorpay_touchpoint": {
+    "keys_configured": true,
+    "payments_fetched": 5,
+    "captured_count": 4,
+    "excluded_count": 1,
+    "payments": [
+      {
+        "payment_id": "pay_TTtQX64s6n8s5R",
+        "amount_paise": 80000,
+        "status": "captured",
+        "included_in_settlement": true
+      },
+      {
+        "payment_id": "pay_TTtPpcWygSWp7y",
+        "amount_paise": 200000,
+        "status": "failed",
+        "included_in_settlement": false
+      },
+      {
+        "payment_id": "pay_TTtOoKPziCnrra",
+        "amount_paise": 35000,
+        "status": "captured",
+        "included_in_settlement": true
+      },
+      {
+        "payment_id": "pay_TTtNOH4b1IXeXt",
+        "amount_paise": 120000,
+        "status": "captured",
+        "included_in_settlement": true
+      },
+      {
+        "payment_id": "pay_TTtK6emqPMh4es",
+        "amount_paise": 50000,
+        "status": "captured",
+        "included_in_settlement": true
+      }
+    ]
+  }
+}
