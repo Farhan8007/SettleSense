@@ -633,7 +633,7 @@ def run_pass2(
 # ============================================================================
 
 MAX_GROQ_CALLS = 20
-GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_MODEL = "qwen/qwen3.6-27b"
 GROQ_TIMEOUT = 10  # seconds
 
 
@@ -677,8 +677,10 @@ def _call_groq(narration: str, api_key: str) -> str:
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt},
         ],
-        max_tokens=100,
+        max_tokens=150,
         temperature=0,
+        reasoning_effort="none",
+        timeout=10,
     )
     
     return response.choices[0].message.content
