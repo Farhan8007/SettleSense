@@ -157,7 +157,6 @@ def _enrich(exc: ExceptionRecord, ctx: dict) -> dict:
         return {
             "utr": utr,
             "first_seen_in": first,
-            "duplicate_of": exc.bank_credit_id,
             "amount_paise": _as_int(amount, "amount_paise"),
         }
 

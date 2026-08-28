@@ -980,9 +980,6 @@
       case 'variance_breach':
         return `Delta: ${ev.delta_rupees || '?'}, cause: ${(ev.likely_cause || '?').replace(/_/g, ' ')}`;
       case 'duplicate_credit':
-        // NOTE: duplicate_of is schema-defined as this record's OWN id
-        // (self-referential) — first_seen_in is the actual original
-        // record. Display first_seen_in so the summary reads correctly.
         return `Duplicate of ${ev.first_seen_in || '?'} (UTR ${ev.utr || '?'})`;
       case 'ambiguous_amount':
         return `${ev.candidate_count || '?'} batch${ev.candidate_count !== 1 ? 'es' : ''} match this amount`;

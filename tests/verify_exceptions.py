@@ -160,7 +160,7 @@ def main():
         key = " - "
         ev = e.evidence
         if e.exception_type == "duplicate_credit":
-            key = f"dupe_of={ev.get('duplicate_of')}, first={ev.get('first_seen_in')}"
+            key = f"utr={ev.get('utr')}, first={ev.get('first_seen_in')}"
         elif e.exception_type == "variance_breach":
             key = f"delta={ev.get('delta_rupees')} cause={ev.get('likely_cause')}"
         elif e.exception_type == "ambiguous_amount":
