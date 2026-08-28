@@ -529,7 +529,11 @@ def run_pass2(
                 },
             )
             exceptions.append(exception)
-            still_unmatched.append(credit)
+            # NOTE: deliberately NOT appended to still_unmatched — this is a
+            # terminal Pass 2 decision. Forwarding it to Pass 3 would let
+            # Pass 3 independently re-decide the same record and produce a
+            # second, conflicting ExceptionRecord for the same bank_credit_id
+            # (bug found and fixed during Step 7d dashboard verification).
             audit_log.append(AuditEvent.create(
                 bank_record_id=credit.bank_credit_id,
                 status=MatchStatus.EXCEPTION,
@@ -591,7 +595,9 @@ def run_pass2(
                 },
             )
             exceptions.append(exception)
-            still_unmatched.append(credit)
+            # NOTE: deliberately NOT appended to still_unmatched — see the
+            # identical note in the ambiguous_amount case above. This is a
+            # terminal Pass 2 decision, not a deferral to Pass 3.
             audit_log.append(AuditEvent.create(
                 bank_record_id=credit.bank_credit_id,
                 status=MatchStatus.EXCEPTION,

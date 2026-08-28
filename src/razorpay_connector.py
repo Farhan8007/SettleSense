@@ -1,7 +1,7 @@
 def fetch_test_payments(count: int = 10) -> list[dict]:
     """Fetch real test-mode payments from Razorpay. Never crashes —
-    returns empty list on any failure."""
-    import razorpay
+    returns empty list on any failure, including the razorpay package
+    itself not being installed."""
     import os
     key_id = os.environ.get("RAZORPAY_KEY_ID")
     key_secret = os.environ.get("RAZORPAY_KEY_SECRET")
@@ -9,6 +9,7 @@ def fetch_test_payments(count: int = 10) -> list[dict]:
         print("⚠ Razorpay keys not set — skipping fetch")
         return []
     try:
+        import razorpay
         client = razorpay.Client(auth=(key_id, key_secret))
         response = client.payment.all({"count": count})
         return response.get("items", [])

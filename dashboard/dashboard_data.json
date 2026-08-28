@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T09:11:39.864742+00:00",
+  "generated_at": "2026-08-28T07:10:38.666527+00:00",
   "summary": {
     "total_bank_credits": 33,
     "total_matched": 26,
@@ -595,7 +595,7 @@
           "pay_037"
         ],
         "settled_at": "2024-01-20 15:00:00",
-        "days_since_settlement": 948,
+        "days_since_settlement": 951,
         "recommended_action": "check_bank_statement_for_date_range"
       }
     },
@@ -611,7 +611,7 @@
           "pay_038"
         ],
         "settled_at": "2024-01-21 13:00:00",
-        "days_since_settlement": 947,
+        "days_since_settlement": 950,
         "recommended_action": "check_bank_statement_for_date_range"
       }
     },
@@ -627,7 +627,7 @@
           "pay_039"
         ],
         "settled_at": "2024-01-22 11:00:00",
-        "days_since_settlement": 946,
+        "days_since_settlement": 949,
         "recommended_action": "check_bank_statement_for_date_range"
       }
     },
@@ -642,7 +642,7 @@
         "status": "failed",
         "created_at": "2024-01-20 06:00:00",
         "product_category": "books",
-        "days_outstanding": 948
+        "days_outstanding": 951
       }
     },
     {
@@ -656,7 +656,7 @@
         "status": "failed",
         "created_at": "2024-01-19 21:00:00",
         "product_category": "electronics",
-        "days_outstanding": 949
+        "days_outstanding": 952
       }
     },
     {
@@ -670,7 +670,7 @@
         "status": "pending",
         "created_at": "2024-01-20 07:00:00",
         "product_category": "home",
-        "days_outstanding": 948
+        "days_outstanding": 951
       }
     }
   ],
@@ -683,7 +683,7 @@
       "reason": "No UTR extracted from narration",
       "amount_paise": 2397962,
       "metadata": {},
-      "timestamp": "2026-08-25T09:11:37.764721+00:00"
+      "timestamp": "2026-08-28T07:10:36.937594+00:00"
     },
     {
       "seq": 0,
@@ -725,15 +725,15 @@
         },
         "pass": 2
       },
-      "timestamp": "2026-08-25T09:11:37.770525+00:00"
+      "timestamp": "2026-08-28T07:10:36.944134+00:00"
     },
     {
       "seq": 0,
-      "record_id": "bank_24",
+      "record_id": "bank_31",
       "pass": 3,
       "status": "exception",
-      "reason": "UTR found but no matching batch: X8KFUES5",
-      "amount_paise": 6014064,
+      "reason": "UTR found but no matching batch: ZZ9911QQ",
+      "amount_paise": 735000,
       "metadata": {
         "ai_called": false,
         "ai_raw_response": null,
@@ -741,14 +741,14 @@
         "exception_type": "utr_found_no_matching_batch",
         "extracted_ref": null,
         "fallback_mode": false,
-        "narration": "NEFT-RAZORPAY-UTRX8KFUES5",
+        "narration": "NEFT-OTHERBANK-UTRZZ9911QQ",
         "pass": 3,
         "ref_type": null,
         "retry_lookup_attempted": false,
         "retry_lookup_found": false,
-        "utr_before_ai": "X8KFUES5"
+        "utr_before_ai": "ZZ9911QQ"
       },
-      "timestamp": "2026-08-25T09:11:37.775162+00:00"
+      "timestamp": "2026-08-28T07:10:36.948364+00:00"
     },
     {
       "seq": 1,
@@ -758,7 +758,7 @@
       "reason": "Exact UTR match: K9Q1UL0B",
       "amount_paise": 3053731,
       "metadata": {},
-      "timestamp": "2026-08-25T09:11:37.765084+00:00"
+      "timestamp": "2026-08-28T07:10:36.937969+00:00"
     },
     {
       "seq": 1,
@@ -806,30 +806,7 @@
         },
         "pass": 2
       },
-      "timestamp": "2026-08-25T09:11:37.770895+00:00"
-    },
-    {
-      "seq": 1,
-      "record_id": "bank_25",
-      "pass": 3,
-      "status": "exception",
-      "reason": "UTR found but no matching batch: H7S3110U",
-      "amount_paise": 6000000,
-      "metadata": {
-        "ai_called": false,
-        "ai_raw_response": null,
-        "confidence": null,
-        "exception_type": "utr_found_no_matching_batch",
-        "extracted_ref": null,
-        "fallback_mode": false,
-        "narration": "NEFT-RAZORPAY-UTRH7S3110U",
-        "pass": 3,
-        "ref_type": null,
-        "retry_lookup_attempted": false,
-        "retry_lookup_found": false,
-        "utr_before_ai": "H7S3110U"
-      },
-      "timestamp": "2026-08-25T09:11:37.775360+00:00"
+      "timestamp": "2026-08-28T07:10:36.944632+00:00"
     },
     {
       "seq": 2,
@@ -841,7 +818,7 @@
       "metadata": {
         "utr": "RTGSWCXVS27E"
       },
-      "timestamp": "2026-08-25T09:11:37.765196+00:00"
+      "timestamp": "2026-08-28T07:10:36.938109+00:00"
     },
     {
       "seq": 2,
@@ -883,30 +860,7 @@
         },
         "pass": 2
       },
-      "timestamp": "2026-08-25T09:11:37.771114+00:00"
-    },
-    {
-      "seq": 2,
-      "record_id": "bank_28",
-      "pass": 3,
-      "status": "exception",
-      "reason": "Extracted reference '433632' not found in settlement batches",
-      "amount_paise": 2446900,
-      "metadata": {
-        "ai_called": true,
-        "ai_raw_response": "{\"extracted_ref\": \"433632\", \"confidence\": \"high\", \"ref_type\": \"utr\"}",
-        "confidence": "high",
-        "exception_type": "unparseable_narration_unresolvable",
-        "extracted_ref": "433632",
-        "fallback_mode": false,
-        "narration": "IMPS/433632/RAZORPAY-SETTLEMENT",
-        "pass": 3,
-        "ref_type": "utr",
-        "retry_lookup_attempted": true,
-        "retry_lookup_found": false,
-        "utr_before_ai": null
-      },
-      "timestamp": "2026-08-25T09:11:38.263018+00:00"
+      "timestamp": "2026-08-28T07:10:36.944901+00:00"
     },
     {
       "seq": 3,
@@ -916,7 +870,7 @@
       "reason": "No UTR extracted from narration",
       "amount_paise": 1849856,
       "metadata": {},
-      "timestamp": "2026-08-25T09:11:37.765296+00:00"
+      "timestamp": "2026-08-28T07:10:36.938234+00:00"
     },
     {
       "seq": 3,
@@ -958,30 +912,7 @@
         },
         "pass": 2
       },
-      "timestamp": "2026-08-25T09:11:37.771299+00:00"
-    },
-    {
-      "seq": 3,
-      "record_id": "bank_29",
-      "pass": 3,
-      "status": "exception",
-      "reason": "Extracted reference '608367' not found in settlement batches",
-      "amount_paise": 2446900,
-      "metadata": {
-        "ai_called": true,
-        "ai_raw_response": "{\"extracted_ref\": \"608367\", \"confidence\": \"high\", \"ref_type\": \"utr\"}",
-        "confidence": "high",
-        "exception_type": "unparseable_narration_unresolvable",
-        "extracted_ref": "608367",
-        "fallback_mode": false,
-        "narration": "IMPS/608367/RAZORPAY-SETTLEMENT",
-        "pass": 3,
-        "ref_type": "utr",
-        "retry_lookup_attempted": true,
-        "retry_lookup_found": false,
-        "utr_before_ai": null
-      },
-      "timestamp": "2026-08-25T09:11:38.474293+00:00"
+      "timestamp": "2026-08-28T07:10:36.945106+00:00"
     },
     {
       "seq": 4,
@@ -991,7 +922,7 @@
       "reason": "No UTR extracted from narration",
       "amount_paise": 4120580,
       "metadata": {},
-      "timestamp": "2026-08-25T09:11:37.765385+00:00"
+      "timestamp": "2026-08-28T07:10:36.938331+00:00"
     },
     {
       "seq": 4,
@@ -1033,30 +964,7 @@
         },
         "pass": 2
       },
-      "timestamp": "2026-08-25T09:11:37.771566+00:00"
-    },
-    {
-      "seq": 4,
-      "record_id": "bank_30",
-      "pass": 3,
-      "status": "exception",
-      "reason": "AI could not extract a reliable reference from narration",
-      "amount_paise": 2446900,
-      "metadata": {
-        "ai_called": true,
-        "ai_raw_response": "{\"extracted_ref\": null, \"confidence\": \"low\", \"ref_type\": \"unknown\"}",
-        "confidence": "low",
-        "exception_type": "unparseable_narration_unresolvable",
-        "extracted_ref": null,
-        "fallback_mode": false,
-        "narration": "MISC CR 1320075 CLG",
-        "pass": 3,
-        "ref_type": "unknown",
-        "retry_lookup_attempted": false,
-        "retry_lookup_found": false,
-        "utr_before_ai": null
-      },
-      "timestamp": "2026-08-25T09:11:38.677755+00:00"
+      "timestamp": "2026-08-28T07:10:36.945294+00:00"
     },
     {
       "seq": 5,
@@ -1066,7 +974,7 @@
       "reason": "Exact UTR match: NLQSZZ1N",
       "amount_paise": 3807376,
       "metadata": {},
-      "timestamp": "2026-08-25T09:11:37.765466+00:00"
+      "timestamp": "2026-08-28T07:10:36.938422+00:00"
     },
     {
       "seq": 5,
@@ -1102,30 +1010,7 @@
         },
         "pass": 2
       },
-      "timestamp": "2026-08-25T09:11:37.771863+00:00"
-    },
-    {
-      "seq": 5,
-      "record_id": "bank_31",
-      "pass": 3,
-      "status": "exception",
-      "reason": "UTR found but no matching batch: ZZ9911QQ",
-      "amount_paise": 735000,
-      "metadata": {
-        "ai_called": false,
-        "ai_raw_response": null,
-        "confidence": null,
-        "exception_type": "utr_found_no_matching_batch",
-        "extracted_ref": null,
-        "fallback_mode": false,
-        "narration": "NEFT-OTHERBANK-UTRZZ9911QQ",
-        "pass": 3,
-        "ref_type": null,
-        "retry_lookup_attempted": false,
-        "retry_lookup_found": false,
-        "utr_before_ai": "ZZ9911QQ"
-      },
-      "timestamp": "2026-08-25T09:11:38.678518+00:00"
+      "timestamp": "2026-08-28T07:10:36.945492+00:00"
     },
     {
       "seq": 6,
@@ -1135,7 +1020,7 @@
       "reason": "No UTR extracted from narration",
       "amount_paise": 959185,
       "metadata": {},
-      "timestamp": "2026-08-25T09:11:37.765540+00:00"
+      "timestamp": "2026-08-28T07:10:36.938510+00:00"
     },
     {
       "seq": 6,
@@ -1171,7 +1056,7 @@
         },
         "pass": 2
       },
-      "timestamp": "2026-08-25T09:11:37.772056+00:00"
+      "timestamp": "2026-08-28T07:10:36.945670+00:00"
     },
     {
       "seq": 7,
@@ -1181,7 +1066,7 @@
       "reason": "No UTR extracted from narration",
       "amount_paise": 2672015,
       "metadata": {},
-      "timestamp": "2026-08-25T09:11:37.765604+00:00"
+      "timestamp": "2026-08-28T07:10:36.938600+00:00"
     },
     {
       "seq": 7,
@@ -1217,7 +1102,7 @@
         },
         "pass": 2
       },
-      "timestamp": "2026-08-25T09:11:37.772216+00:00"
+      "timestamp": "2026-08-28T07:10:36.945837+00:00"
     },
     {
       "seq": 8,
@@ -1229,7 +1114,7 @@
       "metadata": {
         "utr": "RTGS3PH5TFZ7"
       },
-      "timestamp": "2026-08-25T09:11:37.765667+00:00"
+      "timestamp": "2026-08-28T07:10:36.938684+00:00"
     },
     {
       "seq": 8,
@@ -1259,7 +1144,7 @@
         },
         "pass": 2
       },
-      "timestamp": "2026-08-25T09:11:37.772359+00:00"
+      "timestamp": "2026-08-28T07:10:36.945997+00:00"
     },
     {
       "seq": 9,
@@ -1269,7 +1154,7 @@
       "reason": "Exact UTR match: WBLSAPEF",
       "amount_paise": 2163060,
       "metadata": {},
-      "timestamp": "2026-08-25T09:11:37.765743+00:00"
+      "timestamp": "2026-08-28T07:10:36.938778+00:00"
     },
     {
       "seq": 9,
@@ -1293,7 +1178,7 @@
         },
         "pass": 2
       },
-      "timestamp": "2026-08-25T09:11:37.772486+00:00"
+      "timestamp": "2026-08-28T07:10:36.946148+00:00"
     },
     {
       "seq": 10,
@@ -1303,7 +1188,7 @@
       "reason": "No UTR extracted from narration",
       "amount_paise": 4786136,
       "metadata": {},
-      "timestamp": "2026-08-25T09:11:37.765835+00:00"
+      "timestamp": "2026-08-28T07:10:36.938891+00:00"
     },
     {
       "seq": 10,
@@ -1345,7 +1230,7 @@
         },
         "pass": 2
       },
-      "timestamp": "2026-08-25T09:11:37.772645+00:00"
+      "timestamp": "2026-08-28T07:10:36.946308+00:00"
     },
     {
       "seq": 11,
@@ -1355,7 +1240,7 @@
       "reason": "No UTR extracted from narration",
       "amount_paise": 1614954,
       "metadata": {},
-      "timestamp": "2026-08-25T09:11:37.765904+00:00"
+      "timestamp": "2026-08-28T07:10:36.938975+00:00"
     },
     {
       "seq": 11,
@@ -1391,7 +1276,7 @@
         },
         "pass": 2
       },
-      "timestamp": "2026-08-25T09:11:37.772878+00:00"
+      "timestamp": "2026-08-28T07:10:36.946471+00:00"
     },
     {
       "seq": 12,
@@ -1401,7 +1286,7 @@
       "reason": "Exact UTR match: 5AYTCCWC",
       "amount_paise": 5226578,
       "metadata": {},
-      "timestamp": "2026-08-25T09:11:37.765974+00:00"
+      "timestamp": "2026-08-28T07:10:36.939058+00:00"
     },
     {
       "seq": 12,
@@ -1455,7 +1340,7 @@
         },
         "pass": 2
       },
-      "timestamp": "2026-08-25T09:11:37.773030+00:00"
+      "timestamp": "2026-08-28T07:10:36.946625+00:00"
     },
     {
       "seq": 13,
@@ -1465,7 +1350,7 @@
       "reason": "No UTR extracted from narration",
       "amount_paise": 1389839,
       "metadata": {},
-      "timestamp": "2026-08-25T09:11:37.766044+00:00"
+      "timestamp": "2026-08-28T07:10:36.939136+00:00"
     },
     {
       "seq": 13,
@@ -1526,7 +1411,7 @@
         },
         "pass": 2
       },
-      "timestamp": "2026-08-25T09:11:37.773184+00:00"
+      "timestamp": "2026-08-28T07:10:36.946809+00:00"
     },
     {
       "seq": 14,
@@ -1536,7 +1421,7 @@
       "reason": "Exact UTR match: WM2YJZPE",
       "amount_paise": 6097675,
       "metadata": {},
-      "timestamp": "2026-08-25T09:11:37.766111+00:00"
+      "timestamp": "2026-08-28T07:10:36.939216+00:00"
     },
     {
       "seq": 14,
@@ -1591,7 +1476,7 @@
         },
         "pass": 2
       },
-      "timestamp": "2026-08-25T09:11:37.773387+00:00"
+      "timestamp": "2026-08-28T07:10:36.947012+00:00"
     },
     {
       "seq": 15,
@@ -1601,7 +1486,7 @@
       "reason": "Exact UTR match: XYQ1CYDQ",
       "amount_paise": 4864437,
       "metadata": {},
-      "timestamp": "2026-08-25T09:11:37.766176+00:00"
+      "timestamp": "2026-08-28T07:10:36.939303+00:00"
     },
     {
       "seq": 15,
@@ -1656,7 +1541,7 @@
         },
         "pass": 2
       },
-      "timestamp": "2026-08-25T09:11:37.773551+00:00"
+      "timestamp": "2026-08-28T07:10:36.947175+00:00"
     },
     {
       "seq": 16,
@@ -1666,7 +1551,7 @@
       "reason": "Exact UTR match: AV4RJMDX",
       "amount_paise": 6655568,
       "metadata": {},
-      "timestamp": "2026-08-25T09:11:37.766255+00:00"
+      "timestamp": "2026-08-28T07:10:36.940013+00:00"
     },
     {
       "seq": 16,
@@ -1721,7 +1606,7 @@
         },
         "pass": 2
       },
-      "timestamp": "2026-08-25T09:11:37.773704+00:00"
+      "timestamp": "2026-08-28T07:10:36.947338+00:00"
     },
     {
       "seq": 17,
@@ -1731,7 +1616,7 @@
       "reason": "Exact UTR match: W32JD4Q5",
       "amount_paise": 8319460,
       "metadata": {},
-      "timestamp": "2026-08-25T09:11:37.766321+00:00"
+      "timestamp": "2026-08-28T07:10:36.940120+00:00"
     },
     {
       "seq": 17,
@@ -1786,7 +1671,7 @@
         },
         "pass": 2
       },
-      "timestamp": "2026-08-25T09:11:37.774156+00:00"
+      "timestamp": "2026-08-28T07:10:36.947502+00:00"
     },
     {
       "seq": 18,
@@ -1796,7 +1681,7 @@
       "reason": "Exact UTR match: X4SXF2YF",
       "amount_paise": 5089552,
       "metadata": {},
-      "timestamp": "2026-08-25T09:11:37.766403+00:00"
+      "timestamp": "2026-08-28T07:10:36.940210+00:00"
     },
     {
       "seq": 18,
@@ -1839,7 +1724,7 @@
         },
         "pass": 2
       },
-      "timestamp": "2026-08-25T09:11:37.774454+00:00"
+      "timestamp": "2026-08-28T07:10:36.947676+00:00"
     },
     {
       "seq": 19,
@@ -1849,7 +1734,7 @@
       "reason": "No UTR extracted from narration",
       "amount_paise": 5383180,
       "metadata": {},
-      "timestamp": "2026-08-25T09:11:37.766478+00:00"
+      "timestamp": "2026-08-28T07:10:36.940311+00:00"
     },
     {
       "seq": 19,
@@ -1891,7 +1776,7 @@
         },
         "pass": 2
       },
-      "timestamp": "2026-08-25T09:11:37.774662+00:00"
+      "timestamp": "2026-08-28T07:10:36.947840+00:00"
     },
     {
       "seq": 20,
@@ -1901,7 +1786,7 @@
       "reason": "No UTR extracted from narration",
       "amount_paise": 3601837,
       "metadata": {},
-      "timestamp": "2026-08-25T09:11:37.766560+00:00"
+      "timestamp": "2026-08-28T07:10:36.940396+00:00"
     },
     {
       "seq": 21,
@@ -1911,7 +1796,7 @@
       "reason": "Exact UTR match: 1Z7QS613",
       "amount_paise": 8808840,
       "metadata": {},
-      "timestamp": "2026-08-25T09:11:37.766639+00:00"
+      "timestamp": "2026-08-28T07:10:36.940479+00:00"
     },
     {
       "seq": 22,
@@ -1924,7 +1809,7 @@
         "exception_type": "duplicate_credit",
         "utr": "1Z7QS613"
       },
-      "timestamp": "2026-08-25T09:11:37.766763+00:00"
+      "timestamp": "2026-08-28T07:10:36.940567+00:00"
     },
     {
       "seq": 23,
@@ -1938,7 +1823,7 @@
         "delta_paise": -50,
         "utr": "3TFC09CL"
       },
-      "timestamp": "2026-08-25T09:11:37.766877+00:00"
+      "timestamp": "2026-08-28T07:10:36.940653+00:00"
     },
     {
       "seq": 24,
@@ -1952,7 +1837,7 @@
         "delta_paise": -250000,
         "utr": "X8KFUES5"
       },
-      "timestamp": "2026-08-25T09:11:37.766992+00:00"
+      "timestamp": "2026-08-28T07:10:36.940755+00:00"
     },
     {
       "seq": 25,
@@ -1966,7 +1851,7 @@
         "delta_paise": 127440,
         "utr": "H7S3110U"
       },
-      "timestamp": "2026-08-25T09:11:37.767099+00:00"
+      "timestamp": "2026-08-28T07:10:36.940871+00:00"
     },
     {
       "seq": 26,
@@ -1976,7 +1861,7 @@
       "reason": "Exact UTR match: XVGHRSSP",
       "amount_paise": 0,
       "metadata": {},
-      "timestamp": "2026-08-25T09:11:37.767185+00:00"
+      "timestamp": "2026-08-28T07:10:36.940969+00:00"
     },
     {
       "seq": 27,
@@ -1986,7 +1871,7 @@
       "reason": "Exact UTR match: H4VJTUAT",
       "amount_paise": -225115,
       "metadata": {},
-      "timestamp": "2026-08-25T09:11:37.767283+00:00"
+      "timestamp": "2026-08-28T07:10:36.941075+00:00"
     },
     {
       "seq": 28,
@@ -1996,7 +1881,7 @@
       "reason": "No UTR extracted from narration",
       "amount_paise": 2446900,
       "metadata": {},
-      "timestamp": "2026-08-25T09:11:37.767372+00:00"
+      "timestamp": "2026-08-28T07:10:36.941168+00:00"
     },
     {
       "seq": 29,
@@ -2006,7 +1891,7 @@
       "reason": "No UTR extracted from narration",
       "amount_paise": 2446900,
       "metadata": {},
-      "timestamp": "2026-08-25T09:11:37.767456+00:00"
+      "timestamp": "2026-08-28T07:10:36.941254+00:00"
     },
     {
       "seq": 30,
@@ -2016,7 +1901,7 @@
       "reason": "No UTR extracted from narration",
       "amount_paise": 2446900,
       "metadata": {},
-      "timestamp": "2026-08-25T09:11:37.767531+00:00"
+      "timestamp": "2026-08-28T07:10:36.941340+00:00"
     },
     {
       "seq": 31,
@@ -2028,7 +1913,7 @@
       "metadata": {
         "utr": "ZZ9911QQ"
       },
-      "timestamp": "2026-08-25T09:11:37.767609+00:00"
+      "timestamp": "2026-08-28T07:10:36.941425+00:00"
     },
     {
       "seq": 32,
@@ -2038,7 +1923,7 @@
       "reason": "No UTR extracted from narration",
       "amount_paise": 2813935,
       "metadata": {},
-      "timestamp": "2026-08-25T09:11:37.767701+00:00"
+      "timestamp": "2026-08-28T07:10:36.941515+00:00"
     }
   ],
   "razorpay_touchpoint": {

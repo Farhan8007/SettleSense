@@ -1,1 +1,0 @@
-{"event": "accuracy_report", "total_evaluated": 39, "correct": 39, "wrong": 0, "accuracy_pct": 100.0, "false_positives": 0, "false_negatives": 0, "method_match_rate": 23.1, "batch_match_rate": 100.0, "exception_type_match_rate": 0.0, "wrong_records": [], "timestamp": "2026-08-25T04:37:23.565410+00:00"}
