@@ -97,7 +97,7 @@ During early development, a subtle bug emerged in the interaction between Pass 2
 Pass 2 was correctly identifying records that failed batch-sum matching (such as `variance_breach` and `ambiguous_amount` cases), but instead of returning them as terminal exception records, it was forwarding them downstream to Pass 3.
 
 ### Impact
-When `bank_30` (an ambiguous amount matching 3 competing settlement batches) reached Pass 3, the AI parser attempted narration extraction on it. Depending on prompt execution timing, Pass 3 occasionally re-classified `bank_30` under a different exception label (`unparseable_narration_unresolvable`), creating non-deterministic classification behavior across runs.
+When `bank_30` (ambiguous amount matching 3 competing settlement batches) reached Pass 3, the AI parser attempted narration extraction on it — deterministically, at temperature=0, no randomness involved. The bug was architectural, not run-to-run variance: Pass 2 unconditionally forwarded this already-decided record to Pass 3 on every single run, so two separate, fully deterministic ExceptionRecord objects existed simultaneously for the same bank_credit_id. Which one appeared to 'win' depended entirely on which script's merge logic was consuming the combined exceptions list (verify_pass3.py and build_dashboard_data.py happened to merge them differently) — not on any randomness in the pipeline itself.
 
 ### Root Cause & Fix
 - **Root Cause**: Non-terminal control flow in Pass 2.
