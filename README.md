@@ -1,3 +1,7 @@
+![Tests](https://img.shields.io/badge/tests-350%2F350%20passing-brightgreen)
+![Accuracy](https://img.shields.io/badge/accuracy-100%25-brightgreen)
+![False Positives](https://img.shields.io/badge/false%20positives-0-brightgreen)
+
 # SettleSense — AI Finance Controller & Reconciliation Engine
 
 > **Razorpay AI Buildathon — Track 4: AI Finance Controller**  
@@ -10,6 +14,22 @@
 SettleSense is an automated financial reconciliation engine designed to bridge the gap between bank statement credits, payment gateway settlement batches (Razorpay), and internal merchant order ledgers. 
 
 Reconciliation in real-world finance is complex. Payment gateways do not pay out transactions individually; they aggregate hundreds of customer payments into net settlement batches, deduct processing fees (1.8% + 18% GST), apply adjustments or refunds, and transfer a single net amount to the bank. Bank statements frequently truncate transaction descriptions, strip UTR numbers, or display cryptic narration strings. SettleSense resolves these discrepancies using a deterministic 3-pass matching engine, routes unmatched items to a typed exception triage queue with rich diagnostic evidence, and logs every state transition to an append-only, tamper-evident audit trail.
+
+---
+
+## Buildathon Requirements — At a Glance
+
+| Requirement | How SettleSense satisfies it |
+|---|---|
+| **Explainable** | Every match/exception decision has a human-readable reason + full evidence — see the audit trail ([`dashboard/dashboard.html`](dashboard/dashboard.html) → Audit Trail tab, or [`out/audit_exceptions.jsonl`](out/audit_exceptions.jsonl)) |
+| **Bounded** | Hard caps enforced in code — e.g. max 20 AI calls per run in Pass 3, one-to-one batch consumption ([`src/matcher.py`](src/matcher.py#L718)) |
+| **Gated** | Deterministic passes (exact match, batch-sum) always run BEFORE any AI call; AI is last-resort only, never trusted blindly — see [`src/matcher.py`](src/matcher.py#L718) Pass 3 |
+| **Audit trail** | Append-only, tamper-evident JSONL log — corrections are new events, never edits ([`src/audit_log.py`](src/audit_log.py)) |
+| **One failure handled gracefully** | [`demo/failure_demo.py`](demo/failure_demo.py) — narrates 3 real failure types live: duplicate credit, variance breach, ambiguous amount |
+| **Throughput + measured accuracy** | 100.0% accuracy, 39/39 correct against pre-committed ground truth ([`tests/accuracy_report.py`](tests/accuracy_report.py)) |
+| **Honest exception list (not cherry-picked)** | 13 exceptions shown with real evidence, including the ones we got right AND the full false-positive/negative count (0/0) |
+| **AI Judgment (deterministic where AI unneeded)** | Only 1 of 33 bank credits needs AI at all — Pass 1+2 resolve the rest deterministically |
+| **Failure Recovery** | A real bug was found (Pass 2 double-exception issue), root-caused, fixed, and the fix is documented with before/after proof — see [`ARCHITECTURE.md` Section 5](ARCHITECTURE.md#5-developer-retrospective-the-pass-2-state-pipeline-bug) |
 
 ---
 
