@@ -33,6 +33,40 @@ Reconciliation in real-world finance is complex. Payment gateways do not pay out
 
 ---
 
+## Screenshots
+
+### Reconciliation accuracy, honestly reported
+<img src="docs/screenshots/summary-cards.png" alt="Summary cards" width="800">
+
+*100.0% accuracy against ground truth, shown alongside the real 78.8% match rate — not just the headline number.*
+
+### Real Razorpay test-mode data, not just synthetic
+<img src="docs/screenshots/razorpay-touchpoint.png" alt="Razorpay touchpoint" width="800">
+
+*5 real test-mode payments fetched via the Payments API; the 1 failed payment is correctly excluded from settlement, not zeroed out.*
+
+### Every decision, matched or flagged
+<img src="docs/screenshots/results-table.png" alt="Results table" width="800">
+
+*All 39 records with their match method and correctness — including the duplicate_credit and variance_breach exceptions caught, not hidden.*
+
+### Full evidence behind every exception
+<img src="docs/screenshots/exceptions-expanded.png" alt="Exceptions expanded" width="800">
+
+*Clicking any exception reveals its complete evidence JSON — the system's reasoning is inspectable, not a black box.*
+
+### Tracing a bug fix through the audit trail
+<img src="docs/screenshots/audit-trail-search.png" alt="Audit trail search" width="800">
+
+*Searching "bank_30" shows its full 2-event story after a real bug fix (see ARCHITECTURE.md Section 5) — Pass 1 finds no UTR, Pass 2 correctly flags it as ambiguous. No contradicting third event.*
+
+### Graceful failure, narrated live
+<img src="docs/screenshots/failure-demo-terminal.png" alt="Failure demo terminal" width="800">
+
+*demo/failure_demo.py handles a genuinely ambiguous case — 3 competing settlement batches — by refusing to guess and routing to human review with full evidence.*
+
+---
+
 ## 2. Quickstart
 
 Run these exact commands from the project root to reproduce the full pipeline, generate reports, launch the interactive dashboard, and run the failure demonstration:
